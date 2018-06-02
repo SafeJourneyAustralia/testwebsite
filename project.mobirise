@@ -35,8 +35,8 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 51,
-    "versionPublish": "4.7.6",
+    "uniqCompNum": 53,
+    "versionPublish": "4.7.7",
     "screenshot": "screenshot.png",
     "siteUrl": "https://baywashsouthside.com.au",
     "sitemapSwitcherAuto": "on",
@@ -804,8 +804,8 @@
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
             "paddingTop": "2",
-            "paddingBottom": "3",
-            "postToLoad": "2",
+            "paddingBottom": 0,
+            "postToLoad": 3,
             "facebook": "baywashsouthside",
             "twitter": "",
             "google": "",
@@ -823,7 +823,7 @@
             "Extension"
           ],
           "_name": "feed",
-          "_anchor": "feed-5"
+          "_anchor": "feed-1g"
         },
         {
           "_styles": {
@@ -3377,7 +3377,7 @@
           "_params": {
             "showTitle": true,
             "showText": false,
-            "yourpublickeyhere": "YOUR_PUBLIC_KEY_HERE",
+            "yourpublickeyhere": "6LfKnVoUAAAAAHj4hfTRmZ3kGW3TRdt_e_z2EHQc",
             "to": "info@baywashsouthside.com.au",
             "sendCopy": true,
             "copyto": "Baywash Southside",
