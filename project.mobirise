@@ -35,7 +35,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 66,
+    "uniqCompNum": 67,
     "versionPublish": "4.7.7",
     "screenshot": "screenshot.png",
     "siteUrl": "https://baywashsouthside.com.au",
@@ -801,29 +801,16 @@
           "_params": {}
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": 0,
-            "postToLoad": 3,
-            "facebook": "baywashsouthside",
-            "twitter": "",
-            "google": "",
-            "youtube": "",
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
-          },
-          "alias": "social-feed",
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section article mbr-section__container\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;\">\n    <div class=\"container\">\n          <div class=\"fb-page\" data-href=\"https://www.facebook.com/baywashsouthside/\" data-tabs=\"timeline\" data-width=\"1400\" data-height=\"1400\" data-small-header=\"true\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"false\"><blockquote cite=\"https://www.facebook.com/baywashsouthside/\" class=\"fb-xfbml-parse-ignore\"><a href=\"https://www.facebook.com/baywashsouthside/\">Baywash Southside</a>\n</blockquote></div>&gt;</div>\n        \n\n</section>",
+          "_customCSS": "padding-left: 600px;\n\n",
+          "alias": "code-editor",
           "_tags": [
             "Extension"
           ],
-          "_name": "feed",
-          "_anchor": "feed-1g"
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1u"
         },
         {
           "_styles": {
