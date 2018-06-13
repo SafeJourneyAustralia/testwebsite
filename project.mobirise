@@ -44,7 +44,13 @@
     "versionFirst": "4.7.7",
     "uniqCompNum": 10,
     "versionPublish": "4.7.7",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/golden-crown-128x120.png",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "google-analytics": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
